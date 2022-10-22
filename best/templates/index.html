@@ -1,0 +1,8 @@
+{% if youngest_teams %}
+{% for team in youngest_teams %}
+<h1>Team: {{ team }}</h1>
+{% endfor %}
+
+{% else %}
+<h1>No Teams</h1>
+{% endif %}
